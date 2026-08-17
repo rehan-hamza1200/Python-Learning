@@ -1,5 +1,8 @@
-print ("Rehan")
-print("Hamza")
-
+print ("Hello World!")
+print ("I am learning Python")
+print("My name is Muhammad Rehan Hamza")
+print("My age is 20")
+print("I live in Multan")
 print("Rehan" + " Hamza")
-
+print(20)
+print(100)
