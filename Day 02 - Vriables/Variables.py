@@ -1,27 +1,38 @@
 print("Variables")
 
-name = "REHAN HAMZA" # string
+# string
+name = "REHAN HAMZA" 
 print (name)
 print(type(name))
 
-age = 20  # int
+ # int
+age = 20 
 print(age)
 print(type(age))
 
-age_1 = 20.8  # float
-print(age_1)
-print(type(age_1))
+# float
+age1 = 20.8  
+print(age1)
+print(type(age1))
 
-print ("Name :" , name , "Age :", age , "Exact Age :", age_1 )
+# Boolean
+young = True 
+print(young)
+print(type(young))
 
-is_ok = True
-print(is_ok)
+#Print all variables
+print ("Name :" , name , " Age :", age , " Exact Age :", age1 , " Young :" , young )
 
-age_2 = 17
-print(age_2)
-
+#Multiple names using (_)
+first_name = "Rehan"
+last_name = "Hamza"
+age_2 = 21
+is_child  = False
+#Multiple names using camelCase
 myClass = 14
-print(myClass)
 
+print("Full Name" , first_name , last_name , " Age : " , age_2 , " CLass :" , myClass , " Child :" , is_child )
+
+#Input
 name = input("Enter name")
 print (name)
