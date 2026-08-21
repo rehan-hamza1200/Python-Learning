@@ -13,13 +13,13 @@ print(age1)
 #Print all variables combine
 print ("Name :" , name , " Age :", age , " Exact Age :", age1 )
 
-#Multiple names vraiables using (_)
+#Multiple names variables using (_)
 first_name = "Rehan"
 last_name = "Hamza"
 age_2 = 21
 
-#Multiple names vraiables by camelCase
+#Multiple names variables by camelCase
 myClass = 14
 isChild  = False
 
-print("Full Name" , first_name , last_name , " Age : " , age_2 , " CLass :" , myClass , " Child :" , isChild )
+print("Full Name" , first_name , last_name , " Age : " , age_2 , " CLass :" , myClass , " Child :" , isChild)
