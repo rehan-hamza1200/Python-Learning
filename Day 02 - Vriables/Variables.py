@@ -1,38 +1,25 @@
 print("Variables")
 
-# string
+#Creating Single name vriable
 name = "REHAN HAMZA" 
-print (name)
-print(type(name))
-
- # int
 age = 20 
-print(age)
-print(type(age))
+age1 = 20.8
 
-# float
-age1 = 20.8  
+#Print variables
+print(name)
+print(age)  
 print(age1)
-print(type(age1))
 
-# Boolean
-young = True 
-print(young)
-print(type(young))
+#Print all variables combine
+print ("Name :" , name , " Age :", age , " Exact Age :", age1 )
 
-#Print all variables
-print ("Name :" , name , " Age :", age , " Exact Age :", age1 , " Young :" , young )
-
-#Multiple names using (_)
+#Multiple names vraiables using (_)
 first_name = "Rehan"
 last_name = "Hamza"
 age_2 = 21
-is_child  = False
-#Multiple names using camelCase
+
+#Multiple names vraiables by camelCase
 myClass = 14
+isChild  = False
 
-print("Full Name" , first_name , last_name , " Age : " , age_2 , " CLass :" , myClass , " Child :" , is_child )
-
-#Input
-name = input("Enter name")
-print (name)
+print("Full Name" , first_name , last_name , " Age : " , age_2 , " CLass :" , myClass , " Child :" , isChild )
